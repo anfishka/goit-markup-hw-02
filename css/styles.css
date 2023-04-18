@@ -319,21 +319,23 @@ Project card section
 }
 .project-card-subtitle {
   color: var(--navy-blue);
-}
-.project-card-subtitles {
-  font-weight: 500;
+   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: var(--navy-blue);
 }
+.project-card-subtitles {
+ 
+}
 .project-card-text {
   color: var(--slate);
-}
-.project-card-textx {
   color: var(--slate);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.project-card-textx {
+  
 }
 .project-card-link {
 }
