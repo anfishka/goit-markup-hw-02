@@ -38,7 +38,7 @@ Base syles
     list-style: none;
  }
  .logo-span{
-    color: var(--navy-blue-modal)
+    color: #f4f4fd;
  }
 .link {
 text-decoration: none;
