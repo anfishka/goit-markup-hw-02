@@ -35,7 +35,7 @@ Base syles
     list-style: none;
  }
  .logo-span{
-    color:var(--iris);
+    color:var(--cloud);
  }
 .link {
 text-decoration: none;
@@ -100,7 +100,7 @@ Header section
 .header-nav {
 }
 .header-logo {
-font-family: 'Raleway';
+font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 21px;
@@ -131,17 +131,18 @@ Footer
 ===============================
  */
  .footer {
+background-color:var(--grey);
 }
 .footer-logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
-line-height: 21px;
+line-height: 1.17;
 display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: var(--navy-blue);
+color: var(--iris);
 }
 .footer-text {
     color:var(--cloud);
@@ -306,5 +307,5 @@ top: 288px;
 color:var(--slate);
 }
 .project-card-link{
-    
+
 }
