@@ -17,14 +17,14 @@
 }
 
 body {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
     background: var(--white);
-    
+    color:var(--slate);
 }
 /*
 ===============================
@@ -35,7 +35,7 @@ Base syles
     list-style: none;
  }
  .logo-span{
-    color:var(--cloud);
+    color:var(--navy-blue);
  }
 .link {
 text-decoration: none;
@@ -103,12 +103,12 @@ Header section
 font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
-line-height: 21px;
+line-height: 1.17;
 display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: var(--navy-blue);
+color: var(--iris);
 }
 .header-nav-list {
 }
