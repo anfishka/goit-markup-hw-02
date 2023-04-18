@@ -123,7 +123,13 @@ Header section
   letter-spacing: 0.02em;
   color: var(--grey);
 }
-
+.header-link:hover,
+.header-link:focus{
+    color: #404bbf;
+}
+.lists{
+    font-style: normal
+}
 .header-addres {
 }
 .header-address-list {
@@ -338,4 +344,7 @@ Project card section
   
 }
 .project-card-link {
+}
+.spans{
+    color: var(--navy-blue);
 }
