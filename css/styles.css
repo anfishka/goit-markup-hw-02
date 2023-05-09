@@ -22,7 +22,6 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: var(--navy-blue);
   background: var(--white);
   color: var(--slate);
 }
@@ -53,17 +52,16 @@ Base syles
   color: #4d5ae5;
 }
 .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
   cursor: pointer;
 }
 .section {
@@ -102,12 +100,12 @@ Header section
 .header-nav {
 }
 .header-logo {
+  display: flex;
+  align-items: center;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
@@ -155,12 +153,12 @@ Footer
   background-color: var(--grey);
 }
 .footer-logo {
+  display: flex;
+  align-items: center;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
@@ -184,12 +182,11 @@ Hero section
   color: var(--white);
 }
 .hero-btn-order {
+  position: absolute;
   flex-direction: row;
   align-items: flex-start;
   padding: 16px 32px;
   gap: 10px;
-
-  position: absolute;
   width: 169px;
   height: 56px;
   left: 636px;
@@ -289,12 +286,14 @@ Filter section
 .filter-list-item {
 }
 .filter-btn {
-  flex-direction: row;
-  color: var(--iris);
-  background: var(--cloud);
   padding: 12px 24px;
   border: 1px solid var(--cornflower);
   border-radius: 4px;
+  flex-direction: row;
+  color: var(--iris);
+  background: var(--cloud);
+  
+  
 }
 .filter-btn:hover,
 .filter-btn:focus {
@@ -316,16 +315,16 @@ Project card section
 }
 .project-card-list-item {
   box-sizing: border-box;
-  position: absolute;
-  width: 360px;
-  height: 420px;
+  /* position: absolute; */
   left: 924px;
   top: 288px;
   border: 1px solid #e7e9fc;
+  width: 360px;
+  height: 420px;
+ 
 }
 .project-card-subtitle {
-  color: var(--navy-blue);
-   font-weight: 500;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: var(--navy-blue);
@@ -334,7 +333,6 @@ Project card section
  
 }
 .project-card-text {
-  color: var(--slate);
   color: var(--slate);
   font-size: 16px;
   line-height: 1.5;
