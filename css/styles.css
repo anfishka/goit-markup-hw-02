@@ -177,9 +177,12 @@ Hero section
 ===============================
  */
 .hero-section {
+  background-color: var(--grey);
 }
 .hero-title {
   color: var(--white);
+  text-align: center;
+  line-height: 1.07;
 }
 .hero-btn-order {
   position: absolute;
@@ -195,6 +198,10 @@ Hero section
   color: var(--white);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+}
+.hero-btn-order:hover,
+.hero-btn-order:focus{
+  background: var(--ocean);
 }
 /*
 ===============================
@@ -236,6 +243,8 @@ We do section
 }
 .we-do-title {
   color: var(--navy-blue);
+  line-height: 1.11;
+  text-align: center;
 }
 .we-do-list {
 }
@@ -247,9 +256,12 @@ Our team section
 ===============================
  */
 .our-team-section {
+  background-color: var(--cloud);
 }
 .our-team-title {
   color: var(--navy-blue);
+  line-height: 1.11;
+  text-align: center;
 }
 .our-team-list {
 }
@@ -257,6 +269,7 @@ Our team section
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
+  background-color: #ffffff;
 }
 .our-team-subtitle {
   color: var(--navy-blue);
