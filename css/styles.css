@@ -300,9 +300,9 @@ Our team section
 .our-team-subtitle {
   color: var(--navy-blue);
   font-weight:500;
-  font-size: 20;
+  font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
 }
 .our-team-text {
   color: var(--slate);
