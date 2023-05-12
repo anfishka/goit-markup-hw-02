@@ -183,6 +183,12 @@ Hero section
   color: var(--white);
   text-align: center;
   line-height: 1.07;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+
 }
 .hero-btn-order {
   position: absolute;
@@ -211,6 +217,12 @@ Features section
 .features-section {
 }
 .features-title {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 .features-list {
 }
@@ -245,6 +257,12 @@ We do section
   color: var(--navy-blue);
   line-height: 1.11;
   text-align: center;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 .we-do-list {
 }
@@ -262,6 +280,12 @@ Our team section
   color: var(--navy-blue);
   line-height: 1.11;
   text-align: center;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 .our-team-list {
 }
