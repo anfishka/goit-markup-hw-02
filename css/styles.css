@@ -219,7 +219,7 @@ Features section
   font-family: 'Roboto';
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -229,6 +229,11 @@ Features section
 }
 .features-subtitle {
   color: var(--navy-blue);
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
 }
 .features-text {
   color: var(--slate);
@@ -254,14 +259,13 @@ We do section
 }
 .we-do-title {
   color: var(--navy-blue);
-  line-height: 1.11;
   text-align: center;
   font-family: 'Roboto';
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  line-height: 1.11;
 }
 .we-do-list {
 }
@@ -282,7 +286,6 @@ Our team section
   font-family: 'Roboto';
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -363,7 +366,6 @@ Project card section
   font-family: 'Roboto';
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   font-weight: 500;
