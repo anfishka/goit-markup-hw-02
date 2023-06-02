@@ -100,8 +100,6 @@ Header section
 .header-nav {
 }
 .header-logo {
-  /* display: flex; */
-  /* align-items: center; */
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -153,8 +151,6 @@ Footer
   background-color: var(--grey);
 }
 .footer-logo {
-  /* display: flex; */
-  /* align-items: center; */
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -190,18 +186,9 @@ Hero section
 
 }
 .hero-btn-order {
-  /* position: absolute; */
-  /* flex-direction: row; */
-  /* align-items: flex-start; */
-  /* padding: 16px 32px; */
-  /* width: 169px;
-  height: 56px; */
-  /* left: 636px;
-  top: 428px; */
+
   background: var(--iris);
   color: var(--white);
-  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
-  /* border-radius: 4px; */
 }
 .hero-btn-order:hover,
 .hero-btn-order:focus{
@@ -238,12 +225,8 @@ Features section
   color: var(--slate);
 }
 .visually-hidden {
-  /* position: absolute; */
-  /* width: 1px;
-  height: 1px; */
   margin: -1px;
   border: 0;
-  /* padding: 0; */
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -291,9 +274,6 @@ Our team section
 .our-team-list {
 }
 .our-team-list-item {
-  /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08); */
-  /* border-radius: 0px 0px 4px 4px; */
   background-color: #ffffff;
 }
 .our-team-subtitle {
@@ -328,10 +308,7 @@ Filter section
 .filter-list-item {
 }
 .filter-btn {
-  /* padding: 12px 24px; */
   border: 1px solid var(--cornflower);
-  /* border-radius: 4px; */
-  /* flex-direction: row; */
   color: var(--iris);
   background: var(--cloud);
   
@@ -340,9 +317,6 @@ Filter section
 .filter-btn:hover,
 .filter-btn:focus {
   background-color: #404bbf;
-  /* box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12); */
-  /* border-radius: 4px; */
   color: #ffffff;
 }
 /*
@@ -356,14 +330,7 @@ Project card section
 .project-card-list {
 }
 .project-card-list-item {
-  /* box-sizing: border-box; */
-  /* position: absolute; */
-  /* left: 924px;
-  top: 288px; */
   border: 1px solid #e7e9fc;
-  /* width: 360px;
-  height: 420px; */
- 
 }
 .project-card-subtitle {
   font-family: 'Roboto';
