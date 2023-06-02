@@ -52,16 +52,13 @@ Base syles
   color: #4d5ae5;
 }
 .btn {
-  /* display: flex; */
   justify-content: center;
-  /* align-items: center; */
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.04em;
-
   cursor: pointer;
 }
 .section {
